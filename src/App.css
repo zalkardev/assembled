@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#header .header {
+  padding: 25px 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly;
+  background: #000;
+}
+#header .header--nav {
+  padding-left: 300px;
+}
+#header .header--nav a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin: 0 15px;
+}
+#header .header--btn__btn1 {
+  width: 84px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #40AB7E;
+  margin: 0 15px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+#header .header--btn__btn1:hover {
+  background: #40AB7E;
+  border: 2px solid #40AB7E;
+  color: white;
+}
+#header .header--btn__btn2 {
+  width: 126px;
+  height: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #40AB7E;
+  border-radius: 30px;
+}
+#header .header--btn__btn2:hover {
+  background: #40AB7E;
+  border: 2px solid #40AB7E;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#hero {
+  padding-left: 66px;
+}
+#hero .hero h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 39px;
+  color: #000000;
+}
+#hero .hero h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #000000;
+}
+#hero .hero h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 26px;
+}
+#hero .hero p {
+  width: 595px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  padding-left: 26px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#footer {
+  padding: 30px;
 }
+#footer .footer {
+  padding: 20px;
+  background: #404149;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#footer .footer a {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=App.css.map */
